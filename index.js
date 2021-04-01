@@ -6,7 +6,7 @@ const canvas = document.querySelector('canvas.webgl')
 const scene = new THREE.Scene()
 
 const textureLoader = new THREE.TextureLoader()
-const myTexture = textureLoader.load('./static/coolTex.jpg')
+const myTexture = textureLoader.load('coolTex.jpg')
 
 // Object
 const geometry = new THREE.BoxGeometry(1,1,1)
