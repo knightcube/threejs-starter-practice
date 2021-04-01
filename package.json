@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "three": "^0.127.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.28.0"
   }
 }
