@@ -1,11 +1,12 @@
-import {OrbitControls} from ' ../node_modules/three/examples/jsm/controls/OrbitControls.js'
+import {OrbitControls} from 'https://unpkg.com/three@0.127.0/examples/jsm/controls/OrbitControls.js'
+import * as THREE from 'https://unpkg.com/three@0.127.0/build/three.module.js';
 const canvas = document.querySelector('canvas.webgl')
 
 // Scene
 const scene = new THREE.Scene()
 
 const textureLoader = new THREE.TextureLoader()
-const myTexture = textureLoader.load('./static/coolTex.jpg')
+const myTexture = textureLoader.load('../static/coolTex.jpg')
 
 // Object
 const geometry = new THREE.BoxGeometry(1,1,1)
